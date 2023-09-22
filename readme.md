@@ -1,6 +1,6 @@
 # GPT Text Generation with KerasNLP
 
-## Description
+## Description 
 
 This project demonstrates how to use KerasNLP to train a mini-GPT (Generative Pre-trained Transformer) model for text generation. GPT is a powerful language model that can generate coherent and contextually relevant text given a prompt.
 
@@ -24,13 +24,13 @@ Before starting, make sure you have KerasNLP installed. You can install it with 
 pip install keras-nlp
 ````
 ## Data Loading
-We downloaded the simplebooks-92 dataset, which consists of 1,573 Gutenberg books. This dataset has a small vocabulary and is suitable for our task. We will load and preprocess the training and validation sets.
+We downloaded the simplebooks-92 dataset, which consists of 1,573 Gutenberg books. This dataset has a small vocabulary and is suitable for our task. We loaded and preprocessed the training and validation sets.
 
 ## Tokenization
 We trained a tokenizer on the training dataset to create a sub-word vocabulary. Tokenization is crucial for converting text into a format that the model can understand.
 
 ## Model Building
-We created a scaled-down GPT model with KerasNLP. Our model includes:
+We created a scaled-down GPT model with KerasNLP only. Our model includes:
 - Token and Position Embedding layer
 - Multiple TransformerDecoder layers
 - A final dense linear layer
