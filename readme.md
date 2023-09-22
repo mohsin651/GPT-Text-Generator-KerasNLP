@@ -52,8 +52,8 @@ Explore different text generation techniques using our trained model:
 
 Demonstrated how to generate text using these methods and showcase their advantages and limitations.
 
-## Conclusion
-This project provides a comprehensive guide to training a mini-GPT model for text generation using KerasNLP. It covers data preprocessing, model architecture, training, and various text generation techniques. To further understand Transformers and explore training full-sized GPT models, you can refer to additional resources.
+## Todo
+To further understand Transformers and explore training full-sized GPT models.
 
 
 
